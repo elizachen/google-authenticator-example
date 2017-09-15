@@ -1,4 +1,4 @@
-class UserMfaSessiosnController < ApplicationController
+class UserMfaSessionsController < ApplicationController
   skip_before_filter :check_mfa
 
   def new
